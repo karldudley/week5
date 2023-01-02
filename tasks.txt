@@ -1,0 +1,4 @@
+admin, Register Users with taskManager.py, Use taskManager.py to add the usernames and passwords for all team members that will be using this program., 10 Oct 2019, 20 Oct 2019, No
+admin, Assign initial tasks, Use taskManager.py to assign each team member with appropriate tasks, 10 Oct 2019, 25 Oct 2019, No
+karl, Empty bins, Empty the kitchen and bathroom bins into the external bin before bin collection date and put on side of road, 02 Jan 2023, 05 Jan 2023, No
+karl, Programming, Complete task 21 and 22, 02 Jan 2023, 09 Jan 2023, No
