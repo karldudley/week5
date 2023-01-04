@@ -7,3 +7,4 @@ for line_num, line in enumerate(file):
     user_database[line_num] = line
 
 print(user_database)
+
