@@ -18,6 +18,10 @@ price = {"Bacon Bap": 3.99,
         }
 
 # print stock on hand
-print(f"ITEM\t\tQUANTITY\tPRICE(£)\tTOTAL STOCK WORTH(£)")
+
+print(f"ITEM\t\tQUANTITY\tPRICE(£)\tSTOCK WORTH(£)")
+total_stock_worth = 0.0
 for x in menu:
     print(x,"\t",stock[x],"\t\t",price[x],"\t\t",round(stock[x]*price[x],2))
+    total_stock_worth += stock[x]*price[x]
+print(f"\nThe total value of all stock is £{round(total_stock_worth,2)}.\n")
