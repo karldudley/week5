@@ -124,7 +124,7 @@ def takes_no_parameters():
 # ************ Example 10 ************
 print("\nExample 10:")
 def print_word(word):
-print(word) 
+        print(word) 
 
 # The function above just prints out something, it doesn't have a return statement.
 # That's okay, but it means that if you make a call like:
@@ -141,7 +141,7 @@ print("\nExample 11:")
 
 num = 10
 for i in range(10):
-num = add_one(num)  #Runs 10 times, each time, 1 is added to the value of 10. So after the first iteration it will be 11, the second iteration computes 11 + 1 = 12, etc... until 20.
+        num = add_one(num)  #Runs 10 times, each time, 1 is added to the value of 10. So after the first iteration it will be 11, the second iteration computes 11 + 1 = 12, etc... until 20.
         
 print(num)
 
@@ -155,7 +155,7 @@ j = 5
 
 def do_something():
     # Output -> 5
-print(j)
+        print(j)
 
 do_something()
 
@@ -169,9 +169,9 @@ print("\nExample 13:")
 j = 5
 
 def do_something():
-    j = 7
+        j = 7
     # Output -> 7
-print(j)
+        print(j)
 
 do_something()
 
